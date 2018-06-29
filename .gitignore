@@ -1,4 +1,5 @@
 .idea/*
 *.war
 *.jar
-*.eargi
+*.ear
+.out/*
