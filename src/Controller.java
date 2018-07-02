@@ -15,7 +15,7 @@ public class Controller {
 
 
         model.setValue(inputIntValueWithScanner(sc));
-        model.addIntOurValue(" " + inputIntValueWithScanner1(sc));
+        model.addIntOurValue(inputIntValueWithScanner1(sc));
 
         view.printMessageAndInt(View.OUR_STRING, model.getValue());
     }

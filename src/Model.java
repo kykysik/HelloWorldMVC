@@ -4,7 +4,7 @@ public class Model {
     // The Program logic
 
     public String addIntOurValue(String valueString){
-        return value += valueString;
+        return value += " " + valueString;
     }
 
     public String getValue() {
